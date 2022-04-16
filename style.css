@@ -1,0 +1,373 @@
+/* ここから下に記載していく */
+
+.body {
+ width: 1200px;   
+}
+.logo h1 {
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 200px;
+float: left;    
+}
+
+.float li {
+display: inline-block;
+font-size: 21px;
+color:#222222;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 50px;
+}
+
+.main {
+position: relative;
+}
+
+.main ul {
+position: absolute;
+text-align: center;
+color: white;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+white-space: nowrap;
+}
+
+.title {
+font-size: 50px;
+margin-bottom: 30px;
+}
+
+.sub {
+font-size: 35px;
+}
+.main img {
+width: 100%;
+}
+
+.about {
+text-align: center;
+}
+
+.title1 {
+margin-top: 60px;
+margin-bottom: 30px;
+font-size: 24px;
+font-weight: bold;
+color: #ffd61a;
+}
+
+.subtitle {
+font-size: 18px;
+margin-bottom: 60px;
+color:#222222;
+}
+
+.p1 {
+font-size: 16px;
+color:#222222;
+margin-bottom: 40px;
+}
+
+.p2 {
+    font-size: 16px;
+    color:#222222;
+    margin-bottom: 10px;
+    }
+
+.p3 {
+    font-size: 16px;
+    color:#222222;
+    margin-bottom: 40px;
+    }
+.p4 {
+    font-size: 16px;
+    color:#222222;
+    margin-bottom: 40px;
+    }
+.p5 {
+    font-size: 16px;
+    color:#222222;
+    margin-bottom: 10px;
+    }
+.p6 {
+    font-size: 16px;
+    color:#222222;
+    margin-bottom: 80px;
+    }
+
+.fourpics {
+    display: flex;
+}
+
+.title2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+    }
+
+    .p7 {
+        font-size: 16px;
+        color:#222222;
+        text-align: center;
+        margin-bottom: 10px;
+        }
+    .p8 {
+        font-size: 16px;
+        color:#222222;
+        text-align: center;
+        margin-bottom: 60px;
+        }
+
+
+
+
+
+.coursepics ul li {
+display: flex;
+align-items: center;
+width: 100%;
+}
+
+.photo, .photo2 .course-text {
+    width: 50%;
+}
+
+.photo2 {
+    margin-right: 75px;
+}
+
+.coursepics ul li:nth-child(even) {
+flex-direction: row-reverse;
+}
+
+.coursepics {
+    background-color: #fafafa;
+    box-sizing: border-box;
+
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.text {
+    font-size: 16px;
+    margin-left: 50px;
+    line-height: normal;
+}
+
+
+/* 不明＿全体を右寄せ*/
+.course-text2 {
+    margin-right: 50px;
+}
+
+.news {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    text-align: center;
+    }
+
+.news-text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.newspics {
+display: flex;
+justify-content: center;
+gap: 30px;
+line-height: normal;
+font-size: 16px;
+margin-bottom: 60px;
+}
+
+.item h1 {
+    margin-top: 30px;
+}
+
+.item {
+    width: 300px;
+    font-size: 16px;
+}
+
+.item:hover {
+    font-size: 25px;
+}
+/* 不明hover action*/
+
+.button {
+    display: block;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffd61a;
+    color: white;
+    margin: auto;
+    transition: all .2;
+
+}   
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.table table {
+margin: auto;
+text-align: left;
+height: 50px;
+font-size: 16px;
+border-collapse: separate;
+border-spacing: 60px 30px;
+}
+
+.access-header {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #222222;
+    text-align: center;
+    background-color: #fafafa;
+    }
+
+.access-text {
+    margin-bottom: 60px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.access {
+    background-color: #fafafa;
+}
+
+.title4 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #222222;
+    }
+
+.p9 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.p10 {
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.p11 {
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+
+.copyright {
+    background-color:  #707070;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 140px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contact {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.contact-table {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #bfbfbf;
+    border-left: none;
+    border-right: none;
+}
+
+.contact-item,
+.contact-body {
+    padding: 8px;
+    border: 1px solid #bfbfbf;
+    border-left: none;
+    font-size: 14px;
+}
+
+.contact-body {
+    border-right: none;
+}
+
+.box select {
+    width: 328px;
+    height: 36px;
+    border: solid #bfbfbf;
+    border-radius: 0px;
+}
+
+.contact-item {
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+    padding-right: 64px;
+    padding-left: 16px;
+}
+
+.contact-body {
+    width: 400px;
+}
+
+.form-text {
+    width: 328px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+    max-width: 400px;
+}
+
+.contact-will {
+    display: flex;
+}
+
+.contact-will + .contact-will {
+    margin-top: 24px;
+}
+
+.contact-will-txt {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.form-textarea {
+    width: 328px;
+    padding: 8px;
+    height: 150px;
+    border: 1px solid #bfbfbf;
+}
+
